@@ -125,9 +125,9 @@ const Page = () => {
             <hr className="border-dashed" />
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 gap-3">
             <GoogleOAuthButton />
-            <Button type="button" variant="outline">
+            {/* <Button type="button" variant="outline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
@@ -146,7 +146,7 @@ const Page = () => {
                 ></path>
               </svg>
               <span>Microsoft</span>
-            </Button>
+            </Button> */}
           </div>
         </div>
 
