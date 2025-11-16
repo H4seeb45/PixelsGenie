@@ -25,6 +25,7 @@ export default convexAuthNextjsMiddleware(
       return nextjsMiddlewareRedirect(request, `/dashboard`);
     }
 
+    console.log("***Unauthenticated. Navigating to signin page.");
     if (ProtectedMatcher(request) && !authed) {
       return nextjsMiddlewareRedirect(request, `/auth/sign-in`);
     }
